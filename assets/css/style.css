@@ -1,11 +1,50 @@
 .animal {
     border: 3px dotted orange;
     padding: 10px;
-    display: block;
+    float: right;
+    background-color: lightgoldenrodyellow;
+    /* opacity: .8; */
 }
 button {
     margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #title {
+    margin-top: 10px;
     text-align: center;
+    background-color: yellowgreen;
+}
+
+h1 {
+    font-family: 'Coiny', cursive;
+    padding: 20px;
+}
+
+#buttons-view {
+    padding: 20px;
+    background-color: lightpink;
+    margin: 15px;
+}
+
+p, label{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#animal-form {
+    border: 2px solid grey;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+label {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+}
+
+p {
+    font-size: 22px;
 }

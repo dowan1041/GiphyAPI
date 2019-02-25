@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Josefin+Sans|Padauk" rel="stylesheet">
     <title>Favorite Animals</title>
 </head>
 <body>
@@ -19,12 +20,13 @@
             <div id="buttons-view"></div>
         </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-12 col-centered">
                 <form id="animal-form">
                     <label for="animal-input">Search Your Favorit Animals</label>
-                    <input type="text" id="animal-input">
                     <br>
-                    <input id="add-animal" type="submit" value="Click to Add Animals!">
+                    <input class="form-control form-control-lg" type="text" id="animal-input">
+                    <br>
+                    <input class="btn btn-warning form-control form-control-lg" id="add-animal" type="submit" value="Click to Add Animals!">
                 </form>
             </div>
             <div class="col-lg-9">
